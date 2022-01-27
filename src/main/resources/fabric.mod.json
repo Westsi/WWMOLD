@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "wwm",
+  "version": "${version}",
+
+  "name": "Westsi's Warfare Mod",
+  "description": "This is a warfare mod made for 1.18.1 which adds tanks, guns, bombs, airplanes, soldiers and more!",
+  "authors": [
+    "Westsi"
+  ],
+  "contact": {
+    "homepage": "https://frayedcuddlyprojects.westsi.repl.co",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/wwm/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.westsi.wwm.WWM"
+    ]
+  },
+  "mixins": [
+    "wwm.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
