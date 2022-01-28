@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.westsi.wwm.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "Mixins"
+  ],
+  "client": [
+    ""
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

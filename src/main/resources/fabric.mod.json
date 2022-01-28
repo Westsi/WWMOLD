@@ -23,6 +23,7 @@
     ]
   },
   "mixins": [
+    "wwm.mixins.json"
   ],
 
   "depends": {
